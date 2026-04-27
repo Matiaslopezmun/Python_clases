@@ -103,3 +103,49 @@ import time
 #     print(f"El jugador {p2} a ganado")
 
 
+# Adivina el numero 
+# Crea un numero randon entre 1 y 100
+# Pide al usuario que adivine el numero
+# Si el usuario pone un numero mayor al generado debe decir "Te pasaste", en caso contrario debe decir "El numero a adivinar es mayor"
+# Solo hay 5 posibilidades de adivinar
+
+
+# num=random.randint(1, 100)
+# print("Solo tienes 5 oportunidades")
+
+# for i in range(5):
+
+#     ingresado=int(input("Ingresa un numero: "))
+#     if ingresado>num:
+#         print("Te pasaste")
+
+#     elif ingresado!=num:
+#         print("Haz acertado")
+
+#     else:
+#         print("El numero a adivinar es mayor")
+
+
+
+# num=random.randint(1, 100)
+# pos=1
+
+
+# guees=int(input("Adivina el numero: "))
+# while num!=guees and pos<5:
+#     print(f"Turno {pos}")
+#     if guees>num:
+#         print("Te pasaste")
+#     else:
+#         print("El numero a adivinar es mayor")
+#     guees=int(input("Adivina el numero: "))
+#     pos+=1
+
+# if guees==num:
+#     print("Has acertado")
+# else:
+#     print("Se te acabaron las oportunidades")
+
+
+
+# if / for /  while / random / 
